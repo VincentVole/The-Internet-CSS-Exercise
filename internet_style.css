@@ -1,0 +1,153 @@
+#wrapper{
+	width: 950px;
+	margin: 0 auto;
+}
+	#wrapper *{
+		display: inline-block;
+		font-family: Arial, sans-serif;
+	}
+
+
+
+#internet{
+		vertical-align: top;
+		margin-bottom: 0px;
+		margin-left: 75px;
+	}
+#logo{
+	width: 970px;
+	height: 50px;
+	background-color: yellow;
+}	
+	
+	#logo img{
+		margin-top: -80px;
+	}
+	#titleBar{
+		width: 970px;
+		margin-top: -5px;
+		margin-left: 10px;
+	}
+
+
+
+#leftCol{
+	width: 150px;
+	vertical-align: top;
+}
+	#leftCol button{
+		text-align: center;
+		border: none;
+		border-radius: 5px;
+		box-shadow: 1.5px 1.5px 5px black;
+	}
+	#resources{
+		padding-bottom: 20px;
+		border-bottom: .5px solid black;
+	}
+		#resources h5{
+			margin-bottom: 0;
+		}
+		#resources p{
+			margin-top: 10px;
+			margin-bottom: 15px;
+			font-size: 11px;
+		}
+		#resources button{
+			color: white;
+		}
+		#watchVid{
+			width: 150px;
+			margin: 0 0 5px 0px;
+		}
+	#ninjaAd{
+		margin-top: 20px;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+		#reinvent{
+			font-weight: normal;
+			margin-bottom: 0px;
+		}
+
+
+
+#rightCol{
+	width: 750px;
+	padding-left: 50px;
+}
+	#rightCol *{
+		font-size: 13px;
+	}
+	#rightCol h3{
+		font-size: 16px;
+	}
+	#contact{
+		border-bottom: .5px solid black;
+	}
+		#DNS{
+			vertical-align: top;
+		}
+		#phone{
+			margin-left: 530px;
+			margin-top: 10px;
+		}
+		#number{
+			margin-left: 610px;
+			vertical-align: top;
+			margin-top: -44px;
+			text-align: center;
+		}
+		#number *{
+			margin: 0;
+		}
+		#number h3{
+			font-size: 20px;
+		}
+		#number p{
+			font-size: 8px;
+		}
+	
+
+
+		#content h3{
+			display: block;
+			margin-bottom: 0;
+		}
+		#content p{
+			margin: 6px 0;
+		}
+		#content ul, #content ol{
+			margin-top: 0;
+		}
+		#content li{
+			display: list-item;
+			margin-bottom: 5px;
+		}
+		#serverClientDiagram{
+			margin-left: 230px;
+		}
+
+	#big3{
+		border: 4px solid #0085e0;
+		border-bottom: none;
+		padding: 10px 0;
+	}
+		#htmlCssJavascript{
+			margin-left: 10px;
+		}
+		#big3Text{
+			width: 500px;
+			margin-left: 10px;
+			vertical-align: top;
+		}
+			#big3Text p{
+				margin: 0 0 5px 0;
+				font-size: 14px;
+			}
+			#big3Text h3{
+				margin: 5px 0 10px; 0;
+			}
+			#big3Text a{
+				text-decoration: none;
+			}

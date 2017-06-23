@@ -1,9 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<!-- <meta http-equiv="refresh" content="1"> -->
 	<title>The Internet</title>
+	<link rel="stylesheet" type="text/css" href="internet_style.css">
+	<link rel="stylesheet" type="text/css" href="internet_color.css">
+	<link rel="stylesheet" type="text/css" href="normalize_style.css">
+	<link rel="stylesheet" type="text/css" href="internet_image_sizing.css">
 </head>
 <body>
+	<div id="wrapper">
 
+		<h1 id="internet">The Inter<span class="darkBlueText">net</span></h1>
+		<div id="logo">
+			<img src="./images/globe.png" alt="globe" id="globe">
+			<h2 id="titleBar">The World Wide Web</h2>
+		</div>
+		<div id="greyGradient">
+			<div id="leftCol">
+				<div id="resources">
+					<h5>So, what's an <span id="redNet">Internet?</span></h5>
+					<p class="boldText">An <span class="darkBlueText">Inter</span>connected <span class="darkBlueText">Net</span>work of computer all around the world!</p>
+					<button id="watchVid">WATCH A VIDEO</button>
+					<button id="moreResources">MORE RESOURCES</button>
+				</div>
+				
+				<div id="ninjaAd">
+					<h3 id="reinvent">Reinvent your career in just 14 weeks</h3>
+					<img src="./images/ninja.png" alt="ninja" id="ninja">
+					<button id="learnMore">Learn More <span id="grey">&gt;</span><span id="kindaGrey">&gt;</span><span>&gt;</span></button>
+				</div>
+			</div><!-- 
+		 --><div id="rightCol">
+				<div id="contact">
+					<div id="DNS">
+						<img src="./images/home.png" alt="home" id="home">
+						<p class="darkBlueText">DNS</p>
+					</div>
+					<img src="./images/phone.png" alt="phone" id="phone">
+					<div id="number">
+						<p>Mon - Fri 9 a.m. - 5 p.m. (EST)</p>
+						<h3 id="hotline">855.967.3787</h3>
+						<p>International +1.617.963.0555</p>
+					</div>
+				</div>
+				<div id="content">
+					<h3 class="darkBlueText">Clients and Servers</h3>
+					<p>Computers connecter to the <span class="lightBlueText">Web</span> and called <span class="boldText">clients</span> and <span class="boldText">servers</span>.</p>
+					<ul>
+						<li><span class="lightBlueText">Clients</span> are the typical Web users Internet-connected devices (for example, your computer connected to your Wi-Fi, or you phone connected to your mobile network) and <span class="lightBlueText">Web-accessing software</span> available on those devices (usually a web browser like Firefox or Chrome).</li>
+						<li><span class="lightBlueText">Servers</span> are computers that store <span class="lightBlueText">webpages</span>, <span class="lightBlueText">sites</span>, or <span class="lightBlueText">apps</span>. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.</li>
+					</ul>
+					<img src="./images/client_server.jpg" alt="serverClientDiagram" id="serverClientDiagram">
+					<h3 class="darkBlueText">So What Actually Happens?</h3>
+					<ol>
+						<li>The browser goes to the <span class="lightBlueText">DNS servers</span> and finds the real address of the <span class="lightBlueText">server</span> that the website lives on.</li>
+						<li>The browser sends an <span class="lightBlueText">HTTP request</span> message to the server asking it to send a copy of the website to the client.</li>
+						<li>If the server approces the client's request, the server sends the client a <span class="lightBlueText">"200 OK" message</span>, which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a series of small chunks.</li>
+						<li>The browser assembles the small chunks into a complete website and displays it to you!</li>
+					</ol>
+				</div>
+				<div id="big3">
+					<img src="./images/html.png" alt="htmlCssJavascript" id="htmlCssJavascript">
+					<div id="big3Text">
+						<h3 class="darkBlueText">The Big 3 - HTML, CSS, JavaScript</h3>
+						<p>While the server can process information in many different languages, the files that they serve to the client are <span id="italics">always</span> going to be some combination of HTML, CSS, and JavaScript!</p>
+						<p>Learn more about the Big 3 <a href="" class="lightBlueText">here</a>!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

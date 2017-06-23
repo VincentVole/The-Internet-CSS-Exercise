@@ -1,0 +1,69 @@
+#grey{
+	color: #a5d3d9;
+}
+	#kindaGrey{
+		color: #d7ebee;
+	}
+#greyGradient{
+	background: #e2e2e3; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#e2e2e3, white 5%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e2e2e3, white 5%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e2e2e3, white 5%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e2e2e3, white 5%); /* Standard syntax */
+}
+#hotline{
+	color: #00bfdf;
+}
+#italics{
+	font-style: italic; 
+}
+#redNet{
+	color: #d9241d;
+}
+#reinvent{
+	color: white;
+}
+#learnMore{
+	background: #6fcfdf; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#6fcfdf, #03b6d3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#6fcfdf, #03b6d3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#6fcfdf, #03b6d3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#6fcfdf, #03b6d3); /* Standard syntax */
+
+    color: white;
+}
+#logo{
+	background: #2366a0; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(#2366a0, #5183ab, #2366a0); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#2366a0, #5183ab, #2366a0); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#2366a0, #5183ab, #2366a0); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#2366a0, #5183ab, #2366a0); /* Standard syntax */
+
+  	color: white;
+}
+#moreResources{
+	background: #eaad56; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#eaad56, #ef7500); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#eaad56, #ef7500); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#eaad56, #ef7500); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#eaad56, #ef7500); /* Standard syntax */
+}
+#ninjaAd{
+	background-image: url("./images/ad_background.png");
+}
+#watchVid{
+	background: #6298c2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#6298c2, #2a6aa2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#6298c2, #2a6aa2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#6298c2, #2a6aa2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#6298c2, #2a6aa2); /* Standard syntax */
+}
+.boldText{
+	font-weight: bold;
+}
+.darkBlueText{
+	color: #2c6ca2;
+}
+.lightBlueText{
+	color: #79cfea;
+}
